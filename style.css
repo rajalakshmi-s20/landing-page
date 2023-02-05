@@ -1,0 +1,143 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529 ;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6; 
+}
+
+a{
+    text-decoration: none;
+    color: #ccc; 
+}
+
+#showcase{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden; 
+}
+
+#showcase .container{
+    margin-top: 25vh; 
+}
+
+#showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#showcase h2{
+    font-size: 2rem;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color :rgb(51,34,34);
+    position: fixed;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left ;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+}
+
+nav li:hover{
+    background-color: #444;
+}
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.c3{ 
+    font-size: 1.3rem;
+}
+
+footer .c5{
+    display: grid;
+    grid-gap:20px; 
+    grid-template-columns: repeat(4,1fr);
+    text-align: left;
+    padding: 2rem;
+    font-size:14px ;
+}
+
+footer .c5 ul{
+    list-style: none;
+}
+
+footer .c5 ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 2px;
+    margin-bottom: 1rem;
+}
+
+footer .c6{
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+.section{
+    padding: 2 rem 0;
+}
+
+.head{
+    font-size: 2.5 rem;
+    margin: 0;
+}
+
+.section h3{
+font-size: 1.5rem;
+}
+
+.section h2{
+    font-size: 2rem;
+}
+
+:root{
+    --primary-color: #103063 ;
+    --primary-color-hover: #143f85;
+}
+
+.btn{
+    padding: 1rem;
+    color: #fff  ;
+    display: inline-block;
+}
+
+.btn-primary{
+    background: var(--primary-color);
+}
+
+.btn-primary:hover{
+    background: var(--primary-color-hover);
+}
