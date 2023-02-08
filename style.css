@@ -39,7 +39,7 @@ a{
 }
 
 nav{
-    height: 40px;
+    height: 50px;
     width: 100%;
     background-color: #333;
     color :rgb(51,34,34);
@@ -65,8 +65,24 @@ nav a{
     color: #eee;
 }
 
+nav button{
+    background-color: #333;
+    color:#eee;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
 nav li:hover{
     background-color: #444;
+    height: 54px;
+}
+
+nav .b1:hover{
+    background-color: #444;
+    height: 34px;
 }
 
 .container{
