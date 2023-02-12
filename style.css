@@ -74,23 +74,37 @@ nav div{
 .Navbtn button{
     width: 100px;
     text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
     border-radius: 5px;
     margin-top: 6px;
+    font-weight: bold;
+    font-family: cursive;
 }
 
 .Navbtn #login{
     margin-right: 5px;
-    border: 1px solid #333;
-    background-color: #2196F3;
+    border: 1px solid #444;
+    background-color: #5500FF;
     color: #fff;
 }
 
 .Navbtn #signup{
     margin-right: 10px;
-    border: 1px solid #333;
-    background-color: #4CAF50;
+    border: 1px solid #444;
+    background-color: #008000;
     color: #fff;
+}
+
+.Navbtn #login:hover{
+    background-color: #fff;
+    color: #5500FF;
+    cursor: pointer;
+}
+
+.Navbtn #signup:hover{
+    background-color: #fff;
+    color: #008000;
+    cursor: pointer;
 }
 
 nav li:hover{
