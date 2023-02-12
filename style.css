@@ -1,7 +1,8 @@
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;  
     background-color: #252529 ;
     margin: 0;
+    padding: 0;
     color: #fff;
     line-height: 1.6; 
 }
@@ -65,14 +66,31 @@ nav a{
     color: #eee;
 }
 
-nav button{
-    background-color: #333;
-    color:#eee;
-    display: inline-block;
+nav div{
+    display: inline;
+    float: right;
+}
+
+.Navbtn button{
     width: 100px;
     text-align: center;
     padding: 10px 0;
     border-radius: 5px;
+    margin-top: 6px;
+}
+
+.Navbtn #login{
+    margin-right: 5px;
+    border: 1px solid #333;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.Navbtn #signup{
+    margin-right: 10px;
+    border: 1px solid #333;
+    background-color: #4CAF50;
+    color: #fff;
 }
 
 nav li:hover{
@@ -94,6 +112,10 @@ nav .b1:hover{
 
 .c3{ 
     font-size: 1.3rem;
+}
+
+.d1{
+    font-family: cursive;
 }
 
 footer .c5{
@@ -132,7 +154,7 @@ footer .c6{
 }
 
 .section h3{
-font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .section h2{
