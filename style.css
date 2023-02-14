@@ -1,6 +1,6 @@
 body{
     font-family: 'PT Sans', sans-serif;  
-    background-color: #252529 ;
+    background-color: #252529;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -84,26 +84,20 @@ nav div{
 .Navbtn #login{
     margin-right: 5px;
     border: 1px solid #444;
-    background-color: #5500FF;
-    color: #fff;
+    background-color: #F5F5F5;
+    color: #444;
 }
 
 .Navbtn #signup{
     margin-right: 10px;
     border: 1px solid #444;
-    background-color: #008000;
-    color: #fff;
+    background-color: #F5F5F5;
+    color: #444;
 }
 
-.Navbtn #login:hover{
-    background-color: #fff;
-    color: #5500FF;
-    cursor: pointer;
-}
-
+.Navbtn #login:hover,
 .Navbtn #signup:hover{
-    background-color: #fff;
-    color: #008000;
+    opacity: 0.8;
     cursor: pointer;
 }
 
